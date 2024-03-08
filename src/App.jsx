@@ -46,12 +46,12 @@ const App = () => {
          <form>
            <input type="text" placeholder="AÑADE LA NUEVA TAREA" /><button onClick={() => agregarTask('Nueva tarea', 'Nueva Descripcion')}>agregar Tarea</button>
          </form>  
-       <TaskList tasks={tasks} deleteTask={deleteTask} editTask={editTask} />
+      <TaskList tasks={tasks} deleteTask={deleteTask} editTask={editTask} /> 
        
        <button className='button'>limpiar todo</button>
        </div>
     </>
   )
-}
+};
 
 export default App

@@ -16,9 +16,9 @@ const Task = ({ task , deleteTask, editTask}) => {
 
   return (
     <div>
-      <input type="checkbox" checked={task.completed} readOnly />
+      <input type="checkbox"  completed={task.completed = null} />
       <span style={{ textDecoration: task.completed ? 'line-through' : 'none' }}>
-        {task.name}{task.description}
+        {task.description}
       </span>
       <button onClick={Delete}>eliminar</button>
       <button onClick={Edit}>Editar</button>
