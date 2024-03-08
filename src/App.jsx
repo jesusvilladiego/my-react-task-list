@@ -6,10 +6,14 @@ function App() {
 
   return (
     <>
-    
-       <div>
+
+       <div className='div'>
        <Header />
+         <form>
+           <input type="text" placeholder="Add your new todo" /><button className='buton'> + </button>
+         </form>  
        <TaskList />
+       <button className='button'>clear all</button>
        </div>
        
     </>

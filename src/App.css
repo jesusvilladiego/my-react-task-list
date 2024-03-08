@@ -41,7 +41,17 @@
   color: #888;
 }
 
-div{
+.div{
   width: 200;
   height: 200;
+  border-radius: 1px;
+  align-items: center;
+}
+
+.button{
+  background-color: red;
+}
+
+.buton{
+  background-color: rgb(0, 213, 255);
 }
